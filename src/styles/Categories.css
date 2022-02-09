@@ -1,0 +1,22 @@
+.categorie--cards {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.categorie--card {
+  padding: 20px;
+  margin: 5px 20px;
+  width: 160px;
+  background-color: rgb(156, 247, 247);
+}
+
+.categorie--card:nth-child(2n) {
+  background-color: rgb(190, 249, 212);
+}
+
+.categorie--card:nth-child(3n) {
+  background-color: rgb(255, 255, 158);
+}

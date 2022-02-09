@@ -7,22 +7,14 @@
 #root {
   display: flex;
   justify-content: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 .App {
-  width: 800px;
-}
-
-.post {
-  display: flex;
-  padding: 15px;
-  border: 2px solid seagreen;
-  margin-top: 15px;
-  justify-content: space-between;
-  align-items: center;
+  width: 95%;
 }
 
 h1 {
   text-align: center;
-  padding-top: 10px;
+  padding-top: 20px;
 }
